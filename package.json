@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "postinstall": "pnpm install sharp ",
+    "postinstall": "pnpm install sharp && pnpm install wrangler",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
